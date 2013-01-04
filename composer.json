@@ -1,0 +1,20 @@
+{
+    "name": "educoder/pest",
+    "description": "A proper REST client for PHP.",
+    "type": "library",
+    "homepage": "https://github.com/educoder/pest",
+    "authors": [
+        {
+            "name": "University of Toronto",
+            "homepage": "https://github.com/educoder/pest"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-0": {"Pest": "src/"}
+    }
+}
