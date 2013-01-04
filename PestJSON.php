@@ -1,7 +1,5 @@
 <?php
 
-namespace Pest;
-
 require_once 'Pest.php';
 
 /**
